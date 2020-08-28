@@ -1,1 +1,61 @@
 @import url('common.css');
+@import url('import.css');
+
+#wrap{}
+
+header{
+    display: flex;
+    
+    justify-content: center;
+    h1{
+        width: 100px;height:70px;
+        background-color: rgba($color: #f00, $alpha: .5);
+        margin-right: 5%;
+        img{
+            width: 100%;height: 100%;
+        }
+    }
+    nav{
+        background-color: rgba($color: #000000, $alpha: .5);
+        display: flex;
+        text-align: center;
+        ul{
+            
+            li{
+                padding: 20px 50px;
+                a{}
+                &:nth-of-type(1){
+                   
+                }
+                &:nth-of-type(2){
+                    display: flex;
+                    flex-direction: column;
+                   display: none;
+                    a{
+                       padding: 20px 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.visual{
+   
+   
+}
+
+
+
+footer{
+    div{
+        span{
+            a{}
+        }
+    }
+
+    p{
+        text-align: center;
+    }
+}
